@@ -1,51 +1,58 @@
 # 🛒 Retail Sales Data Analysis
 
-Exploratory data analysis project focused on identifying patterns and insights from retail sales data.
+**Goal:** Support retail operations by identifying actionable insights from sales data.
+
+**Role:** I translated raw transactional data into **clear operational recommendations**.  
+**Focus:** Decision-making, business insight, operational impact.
 
 ---
 
 ## 📌 Project Overview
 
-Retail companies generate large volumes of transactional data that can be analyzed to uncover trends in customer purchasing behavior and sales performance.
-
-This project performs an exploratory analysis of retail sales data to identify key patterns related to product demand, revenue distribution, and sales trends.
-
-The objective is to demonstrate how data analysis can support business decision-making in commercial environments.
+Retail businesses generate large volumes of data. This project **analyzes sales patterns** to uncover trends in customer behavior and revenue performance.  
+The aim is **not technical coding**, but using analysis to inform **real business decisions**.
 
 ---
 
 ## 📂 Dataset
 
-The dataset includes transactional sales information such as:
+Includes transactional sales info:
 
-- Product categories
-- Sales amounts
-- Transaction dates
-- Customer or segment information
-- Store or channel details
+- Product categories  
+- Sales amounts  
+- Transaction dates  
+- Customer or segment info  
+- Store or channel details  
 
-These variables allow the exploration of sales performance and business patterns.
-
----
-
-## 🛠 Tools and Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
+Allows exploration of revenue, product performance, and operational patterns.
 
 ---
 
-## 🔎 Key Analysis Performed
+## 🛠 Tools & Technologies
 
-- Data cleaning and preparation
-- Exploratory Data Analysis (EDA)
-- Sales distribution analysis
-- Product performance evaluation
-- Trend identification over time
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- Google Colab  
+- Excel & Power BI  
+
+> Tools are **support for analysis**, not the main identity.
+
+---
+
+## 🔎 Key Analysis
+
+- Data cleaning & preparation  
+- Exploratory Data Analysis (EDA)  
+- Sales distribution & trend analysis  
+- Product performance evaluation  
+
+---
+
+## 📈 Key Insights
+
+- Best performing product categories  
+- Revenue distribution across segments  
+- Trends over time  
+- **Opportunities for actionable business decisions**  
 
 ---
 
@@ -60,39 +67,24 @@ retail-sales-analysis/
 │
 └── README.md
 
-data/ → dataset used in the analysis  
-notebooks/ → Jupyter notebook containing the full analysis  
-README.md → project documentation  
+- data/       → dataset used in the analysis  
+- notebooks/  → Jupyter notebook containing the full analysis  
+- README.md   → project documentation  
 ```
----
-
-## 📈 Key Insights
-
-The analysis highlights several insights related to retail sales performance, including:
-
-- Best performing product categories
-- Revenue distribution across segments
-- Sales trends over time
-- Opportunities for data-driven commercial decisions
-
 ---
 
 ## ▶️ Run the Notebook
 
-You can explore and run the analysis directly in **Google Colab**.
-
-1. Click the **Open in Colab** button below  
-2. Upload the CSV files if necessary  
-3. Run the notebook cells step by step
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](PASTE_YOUR_COLAB_NOTEBOOK_LINK_HERE)
+- Open in Google Colab  
+- Upload CSV if needed  
+- Step through cells to replicate analysis  
 
 ---
 
 ## 👤 Author
 
 Pedro Tamani  
-Economist | Business Analysis | Data-Driven Insights  
+Economist | Business Analysis | Decision Support 
 
 📍 Based in Lima, Peru  
 🔗 LinkedIn: 
