@@ -1,29 +1,30 @@
-# 📊 Telecom Customer Churn Analysis
+# 🛒 Retail Sales Data Analysis
 
-Exploratory Data Analysis of customer churn in a telecommunications company.
+Exploratory data analysis project focused on identifying patterns and insights from retail sales data.
 
 ---
 
 ## 📌 Project Overview
 
-Customer churn is a critical challenge for telecommunications companies because losing existing customers directly impacts revenue and increases acquisition costs.
+Retail companies generate large volumes of transactional data that can be analyzed to uncover trends in customer purchasing behavior and sales performance.
 
-This project performs an exploratory data analysis (EDA) to identify patterns and variables associated with customer churn. The goal is to better understand customer behavior and detect factors that may influence retention.
+This project performs an exploratory analysis of retail sales data to identify key patterns related to product demand, revenue distribution, and sales trends.
+
+The objective is to demonstrate how data analysis can support business decision-making in commercial environments.
 
 ---
 
 ## 📂 Dataset
 
-The dataset includes customer information such as:
+The dataset includes transactional sales information such as:
 
-- Demographic variables
-- Contract type
-- Services subscribed
-- Monthly charges
-- Customer tenure
-- Churn status
+- Product categories
+- Sales amounts
+- Transaction dates
+- Customer or segment information
+- Store or channel details
 
-These variables allow the exploration of relationships between customer characteristics and churn behavior.
+These variables allow the exploration of sales performance and business patterns.
 
 ---
 
@@ -40,11 +41,11 @@ These variables allow the exploration of relationships between customer characte
 
 ## 🔎 Key Analysis Performed
 
-- Data cleaning and preprocessing
+- Data cleaning and preparation
 - Exploratory Data Analysis (EDA)
-- Distribution analysis of key variables
-- Customer segmentation
-- Visualization of churn patterns
+- Sales distribution analysis
+- Product performance evaluation
+- Trend identification over time
 
 ---
 
@@ -52,25 +53,27 @@ These variables allow the exploration of relationships between customer characte
 ```
 retail-sales-analysis/
 │
-├── data/                       → dataset used in the analysis 
+├── data/
 │
-├── notebooks/                  → Jupyter notebook containing the full analysis 
+├── notebooks/
 │   └── sales_analysis.ipynb
 │
-└── README.md                   → project documentation 
+└── README.md
+
+data/ → dataset used in the analysis  
+notebooks/ → Jupyter notebook containing the full analysis  
+README.md → project documentation  
 ```
 ---
 
 ## 📈 Key Insights
 
-The analysis identifies several patterns related to customer churn, including:
+The analysis highlights several insights related to retail sales performance, including:
 
-- The influence of contract type on churn probability
-- The relationship between tenure and churn
-- The impact of monthly charges on customer retention
-- Service combinations associated with higher churn risk
-
-These insights can support data-driven decision making for customer retention strategies.
+- Best performing product categories
+- Revenue distribution across segments
+- Sales trends over time
+- Opportunities for data-driven commercial decisions
 
 ---
 
@@ -92,5 +95,4 @@ Pedro Tamani
 Economist | Business Analysis | Data-Driven Insights  
 
 📍 Based in Lima, Peru  
-
-🔗 LinkedIn: https://www.linkedin.com/in/pedrotamani/
+🔗 LinkedIn: linkedin.com/in/pedrotamani/
