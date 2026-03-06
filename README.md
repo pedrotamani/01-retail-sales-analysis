@@ -1,71 +1,96 @@
-# 📊 Análisis de Ventas - Alura Store
+# 📊 Telecom Customer Churn Analysis
 
-Este proyecto realiza un análisis completo de las ventas de Alura Store, utilizando Python, pandas y herramientas de visualización para obtener insights sobre los productos, tiendas, clientes y localización geográfica.
-
----
-
-## 🎯 Propósito del Análisis
-
-- Explorar el comportamiento de ventas y calificaciones por producto.
-- Identificar tiendas con mejor y peor desempeño.
-- Analizar tendencias de ventas y comportamiento de los clientes.
-- Visualizar patrones geográficos mediante coordenadas de latitud y longitud.
+Exploratory Data Analysis of customer churn in a telecommunications company.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📌 Project Overview
 
+Customer churn is a critical challenge for telecommunications companies because losing existing customers directly impacts revenue and increases acquisition costs.
+
+This project performs an exploratory data analysis (EDA) to identify patterns and variables associated with customer churn. The goal is to better understand customer behavior and detect factors that may influence retention.
+
+---
+
+## 📂 Dataset
+
+The dataset includes customer information such as:
+
+- Demographic variables
+- Contract type
+- Services subscribed
+- Monthly charges
+- Customer tenure
+- Churn status
+
+These variables allow the exploration of relationships between customer characteristics and churn behavior.
+
+---
+
+## 🛠 Tools and Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+---
+
+## 🔎 Key Analysis Performed
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Distribution analysis of key variables
+- Customer segmentation
+- Visualization of churn patterns
+
+---
+
+## 📁 Repository Structure
 ```
-📦 alura-store/
-├── README.md                   # Documentación del proyecto
-├── Analisis_de_Venta.ipynb     # Notebook principal con el análisis
-└── Data/                       # Carpeta con los datos utilizados                        
-````
+retail-sales-analysis/
+│
+├── data/                       → dataset used in the analysis 
+│
+├── notebooks/                  → Jupyter notebook containing the full analysis 
+│   └── sales_analysis.ipynb
+│
+└── README.md                   → project documentation 
+```
+---
 
+## 📈 Key Insights
+
+The analysis identifies several patterns related to customer churn, including:
+
+- The influence of contract type on churn probability
+- The relationship between tenure and churn
+- The impact of monthly charges on customer retention
+- Service combinations associated with higher churn risk
+
+These insights can support data-driven decision making for customer retention strategies.
 
 ---
 
-## 📈 Ejemplos de Gráficos e Insights
+## ▶️ Run the Notebook
 
-🔹 Ingresos por Tienda
-Se comparan los ingresos generados por cada tienda, mostrando cuál obtiene mayor volumen de ventas.
+You can explore and run the analysis directly in **Google Colab**.
 
-🔹 Productos Más y Menos Vendidos
-Se identifican los 5 productos más populares y los 5 menos vendidos para entender preferencias del mercado.
+1. Click the **Open in Colab** button below  
+2. Upload the CSV files if necessary  
+3. Run the notebook cells step by step
 
-🔹 Calificaciones Promedio
-Análisis de la satisfacción del cliente por tienda, basado en las calificaciones promedio.
-
-🔹 Costo de Envío Promedio
-Comparativa del costo logístico promedio por tienda, lo cual puede impactar la rentabilidad.
-
-🔹 Mapa Geográfico (Extra)
-Visualización de puntos de venta por ubicación (latitud y longitud) para identificar concentraciones regionales.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](PASTE_YOUR_COLAB_NOTEBOOK_LINK_HERE)
 
 ---
 
-## ▶️ Instrucciones para Ejecutar el Notebook
+## 👤 Author
 
-1. Abre el notebook en Google Colab haciendo clic en el siguiente botón:
+Pedro Tamani  
+Economist | Business Analysis | Data-Driven Insights  
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tu_usuario/tu_repositorio/blob/main/Alura_Store_Analisis.ipynb)
+📍 Based in Lima, Peru  
 
-2. Asegúrate de subir los archivos CSV al entorno de ejecución (o vincular tu Google Drive si están allí).
-
-3. Ejecuta cada celda paso a paso para reproducir el análisis.
-
----
-
-## 📌 Requisitos
-
-- Python 3.x
-- pandas
-- matplotlib
-- seaborn
-- folium (opcional, para mapas interactivos)
-
----
-
-## 📬 Contacto
-
-Cualquier duda o sugerencia, puedes escribirme a pedro.tamani@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/pedrotamani/
